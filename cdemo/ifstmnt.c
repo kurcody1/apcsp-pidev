@@ -68,4 +68,5 @@ int main()
   {
     printf("a is 0\n");
   }
+return 0;
 }
