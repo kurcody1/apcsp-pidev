@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include "student.c"
-#include "student.h"
-
+#include "studentfunc.h"
 int main(void)
 {
-   //how many names to add
+
+  //how many names to add
   printf("how many students would you like to add?(1-3)\n");
   while (1)
   {
@@ -14,9 +13,7 @@ int main(void)
   }
   printf("adding %d student(s).\n",numStudents);
 
-#include <stdio.h>
-#include <string.h>
-#include "student.h"
+
 //create student
 
   while (1)

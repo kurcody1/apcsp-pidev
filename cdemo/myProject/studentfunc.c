@@ -1,4 +1,8 @@
-#include "student.h"
+#include "studentfunc.h"
+#include <stdio.h>
+
+
+
 
 struct student
 {
@@ -23,4 +27,3 @@ void printStudent (struct student* student, int n)
   printf ("Age:%s\n",student->age);
   printf ("Student ID:%s\n",student->studentid);
 }
-
